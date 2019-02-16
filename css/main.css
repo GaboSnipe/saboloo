@@ -9,12 +9,19 @@
 
 }
 
+.clearfix{
+	clear: both;
+}
 
+#ull{
+	display: flex;
+}
 
 .menu{
 	margin-left: 370px;
 	position: absolute;
 	top: 28px;
+	width: 66%;
 }
 .menu li{
 	margin-right: 30px;
@@ -22,13 +29,12 @@
 }
 .search {
 	margin-left: 323px;
+float: right;
 }
 .login {
 	margin-left: 29px;
-	
+	float: right;
 }
-
-
 #background_image{
 	
 	width: 100%;
